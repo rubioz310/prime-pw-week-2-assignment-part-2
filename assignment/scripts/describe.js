@@ -166,8 +166,14 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-const minAge = 21;
+const minAge = 21;// FIZ -  By setting minAge to 20 we can get the intended result without
+//changing the rest of the code but is hard to read so we use the next FIX instead
 
+// FIX - The result of the comparation results in console.log "no entry" when it should be
+// console.log "enter" as both age and minAge are equal.
+//So we change the comparation to age>=minAge, 
+//on the section if the condition is true we replace console.log " no entry" to console.log "entry"
+// and on the section if the condition is false we replace console.log "entry" to console.log "no entry"
 if(minAge <= age) {
   console.log('no entry');
 } else {
