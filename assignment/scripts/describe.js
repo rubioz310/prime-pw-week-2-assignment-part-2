@@ -153,7 +153,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-// FIX
+// FIX - || is used for an or statement but instructions ask's for a and statement, so
+//we replace || with &&.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
