@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//We create a variable named isStudent and set it to true as a boolean.
+//We create a variable named age and we set it to 34 as a number.
+//We create a variable named zip and we set it to 55407 as a number.
+//We check is isStudent is equal to true and if zip is bigger than 80000 wich they're not, so
+//we now check if isStudent is equal to false or if age is less than 30 wich they're not, so
+//we now check if isStudent is equal to true wich it is so
+//we console.log "Welcome to prime!"
 
 //CODE
 /*
