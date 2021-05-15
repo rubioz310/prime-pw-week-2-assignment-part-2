@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//We create a variable named secret. We create a variable called code and we set it to 123 as a number.
+//We check if code is equal to 123. In this case it is so we set secret to super as a string and
+//set code as double the value of code. We check if code is bigger than 250 wich is not.
+//Next we console.log "super".
 
 //CODE
 /*
